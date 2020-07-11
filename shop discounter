@@ -1,0 +1,16 @@
+#Obtaining price of item from the user
+
+a = int(input("Enter the price of item"))
+
+#Obtaining discount percentage of item from the user
+
+b = int(input("Enter the discount percentage"))
+
+#Value of c(a variable)
+
+c = (b*a/100)
+
+#Giving answer to the user
+
+print("Amount that customer is having a discount of=",c)
+print("Amount that Respected Sir/Mam has to pay=",a-c)
